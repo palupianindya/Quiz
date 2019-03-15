@@ -34,9 +34,9 @@
 	<div class="bg-container-contact100" style="background-image: url(images/unicorn.jpg);">
 		<div class="contact100-header flex-sb-m">
 		<form class="contact100-form validate-form" action=index.php method=post>	
-			<!-- <a href="#" class="contact100-header-logo">
-				<img src="images/icons/logo.png" alt="LOGO">
-			</a> -->
+			<a href="#" class="contact100-header-logo">
+				<img src="images/icons/woman.png" alt="LOGO">
+			</a>
 
 			<!-- <div>
 				<button class="btn-show-contact100">
@@ -57,7 +57,7 @@
 			</div>
 
 			<form class="contact100-form validate-form">
-				<div class="wrap-input100 validate-input">
+				<div class="wrap-input100">
 					<input id="nama" class="input100" type="text" name="nama" placeholder="Isikan Nama Anda">
 					<span class="focus-input100">Nama</span>
 					<label class="label-input100" for="nama">
@@ -65,7 +65,7 @@
 					</label>
 				</div>
 
-				<div class="wrap-input100 validate-input">
+				<div class="wrap-input100">
 					<input id="tinggi" class="input100" type="text" name="tinggi" placeholder="Isikan Tinggi Badan Anda" value="<?php if(!empty($_POST['tinggi'])){ echo $_POST['tinggi']; }?>" required>
 					<span class="focus-input100">Tinggi</span>
 					<label class="label-input100" for="tinggi">
@@ -74,7 +74,7 @@
 				</div>
 
 				
-				<div class="wrap-input100 validate-input">
+				<div class="wrap-input100">
 					<input id="berat" class="input100" type="text" name="berat" placeholder="Isikan Berat Badan Anda" value="<?php if(!empty($_POST['berat'])){ echo $_POST['berat']; }?>" required>
 					<span class="focus-input100">Berat</span>
 					<label class="label-input100" for="berat">
