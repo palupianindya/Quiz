@@ -34,25 +34,25 @@
 	<div class="bg-container-contact100" style="background-image: url(images/unicorn.jpg);">
 		<div class="contact100-header flex-sb-m">
 		<form class="contact100-form validate-form" action=index.php method=post>	
-			<a href="#" class="contact100-header-logo">
+			<!-- <a href="#" class="contact100-header-logo">
 				<img src="images/icons/logo.png" alt="LOGO">
-			</a>
+			</a> -->
 
-			<div>
+			<!-- <div>
 				<button class="btn-show-contact100">
 					Kalkulator BMI
 				</button>
-			</div>
+			</div> -->
 		</div>
 	</div>
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<button class="btn-hide-contact100">
+			<!-- <button class="btn-hide-contact100">
 				<i class="zmdi zmdi-close"></i>
-			</button>
+			</button> -->
 
-			<div class="contact100-form-title" style="background-image: url(images/beach.jpg);">
+			<div class="contact100-form-title" style="background-image: url(images/unicorn2.jpg);">
 				<span>Kalkulator BMI</span>
 			</div>
 
